@@ -65,7 +65,7 @@ inquirer
   ])
   .then((response) => {
     var licenseChosen;
-    if (response.list === "Academic Free License v3.0") {
+    if (response.list === "Apache 2.0 License") {
       licenseChosen =
         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     }
